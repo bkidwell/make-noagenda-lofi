@@ -1,3 +1,10 @@
+# make-noagenda-lofi exceptions
+input/
+output/
+samples/
+state/
+*.sublime-*
+
 *.py[cod]
 
 # C extensions
