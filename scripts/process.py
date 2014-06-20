@@ -2,6 +2,10 @@
 # -*- coding: utf-8 -*-
 
 # TODO: graceful error handling
+# TODO: use imagemagick to convert covert art from whatever format it is to 256x256 (?) jpeg
+# TODO: remove font and script tags from description
+# TODO: output path: files/$year/$month/filename
+# TODO: get post_date from filesystem date of input files
 
 import db
 import re
