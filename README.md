@@ -20,7 +20,7 @@ Requirements
 Operation
 ---------
 
-- Setup a BitTorrent Sync client to continuously sync the public folder with the key `R5NSJBPWKW52OO5HCY27JUHKZSKOFAR2D`.
+- Setup a BitTorrent Sync client to continuously sync the public folder with the key `BBE35UBVKPKSUWGDLUZN5DIPFIB3TTQ5I`.
 - Make a symlink from `make-noagenda-lofi/input` to the BTSync folder.
 - Run `./scripts/watch-for-files.sh` at boot time. It will wait for new files in `./input` and call `scripts/process.py` when it finds any.
 - `process.py` will select all `*.mp3` files in `./input` that it has not already processed before:
